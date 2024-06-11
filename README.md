@@ -6,6 +6,15 @@ Continual learning methods are known to suffer from catastrophic forgetting, a p
 
 <img src="https://github.com/dipamgoswami/ADC/blob/main/figs/ADC.png" width="100%" height="100%">
 
+```
+@article{goswami2024resurrecting,
+  title={Resurrecting Old Classes with New Data for Exemplar-Free Continual Learning},
+  author={Goswami, Dipam and Soutif-Cormerais, Albin and Liu, Yuyang and Kamath, Sandesh and Twardowski, Bart{\l}omiej and van de Weijer, Joost},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+}
+```
+
 
 ## Implementation
 
