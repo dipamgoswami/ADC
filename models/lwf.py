@@ -1,6 +1,7 @@
 import logging
 import numpy as np
 import torch
+import os
 from torch import nn
 from torch.serialization import load
 from tqdm import tqdm
@@ -67,6 +68,8 @@ class LwF(BaseLearner):
         self._old_network = self._network.copy().freeze()
         self._known_classes = self._total_classes
         if not self.args['resume']:
+            if not os.path.exists(self.args["model_dir"]):
+                os.makedirs(self.args["model_dir"])
             self.save_checkpoint("{}{}_{}_{}_{}".format(self.args["model_dir"],self.args["dataset"],self.args["model_name"],self.args["init_cls"],self.args["increment"]))
 
     def incremental_train(self, data_manager):
