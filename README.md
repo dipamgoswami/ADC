@@ -15,6 +15,13 @@ Continual learning methods are known to suffer from catastrophic forgetting, a p
 }
 ```
 
+## Algorithm
+<p align="center">
+<img src="https://github.com/dipamgoswami/ADC/blob/main/figs/algo.png" width="50%" height="100%">
+</p>
+
+## Results
+<img src="https://github.com/dipamgoswami/ADC/blob/main/figs/results.png" width="100%" height="100%">
 
 ## Implementation
 
